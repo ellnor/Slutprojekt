@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="blimedlem.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0-2/css/all.min.css" integrity="sha256-46r060N2LrChLLb5zowXQ72/iKKNiw/lAmygmHExk/o=" crossorigin="anonymous" />
+
+</head>
+<body>
+    <nav>
+        <div class="logo"><img src="Logga-Hestra.png" width="70" height="65"></div>
+        <h1> Bli medlem</h1>
+        <div class="openMenu"><i class="fa fa-bars"></i></div>
+        <ul class="mainMenu">
+            <li><a href="Hestra IF.html">Startsida</a></li>
+            <li><a href="Foreningen.html">Föreningen</a></li>
+            <li><a href="Orientering.html">Orientering</a></li>
+            <li><a href="Blimedlem.html">Bli medlem</a></li>
+            <li><a href="skidspar.html">Skidspår</a></li>
+
+            <div class="closeMenu"><i class="fa fa-times"></i></div>
+        </ul>
+    </nav>
+     <script src="./app.js"></script>
+     <h2>Medlemsavgifter 2024</h2>
+     <table style="width:100%">
+        <tr>
+          <th>Ålderskategori</th>
+          <th>Aktiv medlem</th> 
+          <th>Stöd medlem</th>
+        </tr>
+        <tr>
+          <td>0-12 år</td>
+          <td>150 SEK</td>
+          <td>100 SEK</td>
+        </tr>
+        <tr>
+          <td>13-20 år</td>
+          <td>350 SEK</td>
+          <td>100 SEK</td>
+        </tr>
+        <tr>
+          <td>21-64 år</td>
+          <td>550 SEK</td>
+          <td>250 SEK</td>
+        </tr>
+        <tr>
+            <td>65+ år</td>
+            <td>450 SEK</td>
+            <td>200 SEK</td>
+          </tr>
+      </table>
+      <h2>Skidspårsavgifter 2024</h2>
+      <table style="width:100%">
+        <tr>
+          <th>Typ av kort</th>
+          <th>Aktiv medlem </th> 
+          <th>Stöd medlem</th>
+          <th>Ej medlem</th>
+        </tr>
+        <tr>
+          <td>Årskort</td>
+          <td>600 SEK</td>
+          <td>600 SEK</td>
+          <td>900 SEK</td>
+        </tr>
+        <tr>
+            <td>Dagskort</td>
+            <td>80 SEK</td>
+            <td>80 SEK</td>
+            <td>80 SEK</td>
+          </tr>
+      </table>
+      <title>Bli Medlem</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      text-align: center;
+      padding: 0px;
+    }
+   #membership-form{
+    display: none;
+   }
+   
+  </style>
+</head>
+<body>
+
+  <button id="join-button" onclick="showMembershipForm()">Bli Medlem</button>
+
+  <div id="membership-form">
+    <h2>Fyll i dina uppgifter</h2>
+    <form id="registration-form" onsubmit="handleMembership()">
+      <!-- Här kan du lägga till de uppgifter du vill samla in från användaren -->
+      <!-- Exempel: -->
+      <!-- <label for="username">Användarnamn:</label>
+      <input type="text" id="username" name="username" required><br> -->
+      
+      <label for="email">E-post:</label>
+      <input type="email" id="email" name="email" required><br>
+
+      <label for="password">Lösenord:</label>
+      <input type="password" id="password" name="password" required><br>
+      <label for="medlem">Typ av medlemskap</label>
+      <input type="medlem" id="medlem" name="medlem" required><br>
+
+      <input type="submit" value="Skicka">
+    </form>
+  </div>
+
+  <script>
+    function showMembershipForm() {
+      document.getElementById("join-button").style.display = "none";
+      document.getElementById("membership-form").style.display = "block";
+    }
+
+    function handleMembership() {
+      // Här behöver du skicka formulärets data till servern för att skapa medlemskap
+      // Exempel med JavaScript Fetch API:
+      // const formData = new FormData(document.getElementById("registration-form"));
+      // fetch('server-script-for-membership.php', {
+      //   method: 'POST',
+      //   body: formData
+      // })
+      // .then(response => response.json())
+      // .then(data => {
+      //   // Handle server response
+      //   console.log(data);
+      // })
+      // .catch(error => {
+      //   console.error('Error:', error);
+      // });
+    }
+  </script>
+
+
+
+</body>
+<footer>
+    <p>&copy; 2024 Hestra IF </p>
+</footer>
+</html>
+   
