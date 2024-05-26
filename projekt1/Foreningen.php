@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Styleforeningen.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0-2/css/all.min.css" integrity="sha256-46r060N2LrChLLb5zowXQ72/iKKNiw/lAmygmHExk/o=" crossorigin="anonymous" />
+
+</head>
+<body>
+    <nav>
+        <div class="logo"><img src="Logga-Hestra.png" width="70" height="65"></div>
+        <h1> Föreningen</h1>
+        <div class="openMenu"><i class="fa fa-bars"></i></div>
+        <ul class="mainMenu">
+            <li><a href="Index.php">Startsida</a></li>
+            <li><a href="Foreningen.php">Föreningen</a></li>
+            <li><a href="Orientering.php">Orientering</a></li>
+            <li><a href="Blimedlem.php">Bli medlem</a></li>
+            <li><a href="skidspar.php">Skidspår</a></li>
+
+            <div class="closeMenu"><i class="fa fa-times"></i></div>
+        </ul>
+    </nav>
+     <script src="./app.js"></script>
+   
+
+
+    <section id="hem" class ="valkommen">
+        
+        <h2>Välkommen till Hestra IF</h2>
+        <p>Välkommen till Hestra IF. Här hittar du information om våra aktiviteter, träningsmöjligheter och mycket mer.</p>
+    </section>
+    <section> <img src="hestrastugan-560x191.jpg"></section>
+
+    <section id="om-osss">
+        <h2>Om oss</h2>
+        <p>Hestra IF hemsida  som grundades 1921 för att främja längdskidåkning och engagera människor i vårt lokalsamhälle. Vi strävar efter att erbjuda möjligheter för både nybörjare och erfarna åkare att utvecklas och njuta av skidåkning.</p>
+    </section>
+
+    <section id="traning">
+        <h2>Träning</h2>
+        <p>Klubben erbjuder sina medlemmar en frilufts- och friskvårdsinriktad verksamhet med motion, längdskidor, skidskytte, orientering och boule som huvudsakliga aktiviteter.
+
+        </p>
+    </section>
+
+    <section id="kontakt">
+        <h2>Kontakt</h2>
+        <p>Vill du veta mer om Hestra IF eller har du frågor? Kontakta oss via följande kontaktuppgifter:</p>
+        <ul>
+            <li>Telefon-kansliet: 0768-243357</li>
+            <li>E-post: kansliet@hestraif.se</li>
+            <li>Adress: Hestrastugan Linnés väg 13, 504 75 Borås</li>
+        </ul>
+    </section>
+
+    <div class="HF-image"></div>
+
+    <footer>
+        <p>&copy; 2024 Hestra IF </p>
+    </footer>
+</body>
+</html>
+
